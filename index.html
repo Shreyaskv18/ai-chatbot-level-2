@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Lead Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="chatBtn" onclick="toggleChat()">Chat with us</button>
+
+<div class="chatbox" id="chatbox">
+  <div class="chat-header">
+    <span>Assistant</span>
+    <span onclick="toggleChat()" class="close">×</span>
+  </div>
+
+  <div class="chat-body" id="chatBody"></div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
