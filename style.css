@@ -28,7 +28,13 @@ body {
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.2);
   overflow: hidden;
-  
+
+  display: none;
+  flex-direction: column;
+}
+.chatbox.active{
+  display:flex;
+  flex-direction:column;
 }
 
 .chat-header {
@@ -137,10 +143,7 @@ body {
     max-height:80vh;
   }
 
-  .chat-body{
-    height:50vh;
-  }
-
+  
   .chat-input input{
     font-size:14px;
   }

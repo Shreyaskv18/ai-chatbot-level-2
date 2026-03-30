@@ -38,12 +38,12 @@ function toggleChat(){
 
   const chatbox = document.getElementById("chatbox");
 
-  if(chatbox.style.display === "block"){
+  if(chatbox.style.display === "flex"){
     chatbox.style.display = "none";
   } 
   else{
 
-    chatbox.style.display = "block";
+    chatbox.style.display = "flex";
 
     if(!greeted){
       showTyping();
@@ -280,3 +280,4 @@ Service: ${service}`;
   });
 
 }
+
