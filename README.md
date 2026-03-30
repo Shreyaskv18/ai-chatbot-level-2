@@ -19,7 +19,7 @@ Technologies Used:
 - Google Sheets
 
 Live Demo:
-(Add GitHub Pages link here)
+(https://shreyaskv18.github.io/ai-chatbot-level-2/)
 
 Author:
 Shreyas K.V
