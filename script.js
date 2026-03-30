@@ -267,10 +267,13 @@ Phone: ${phone}
 Email: ${email}
 Service: ${service}`;
 
-    const whatsappURL =
-    "https://wa.me/?text=" + encodeURIComponent(whatsappMessage);
+    // my WhatsApp number 
+const myNumber = "918722879522"; // replace with your number in international format
 
-    window.open(whatsappURL,"_blank");
+const whatsappURL =
+"https://wa.me/" + myNumber + "?text=" + encodeURIComponent(whatsappMessage);
+
+window.open(whatsappURL,"_blank");
 
   })
 
