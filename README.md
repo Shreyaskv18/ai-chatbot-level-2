@@ -32,7 +32,7 @@ Live Demo:
 ![Sheets](google-sheets-leads.png)
 
 ### WhatsApp Lead Notification
-![WhatsApp](whatsapp-lead.jpeg)
+![WhatsApp](whatsapp-leads.jpeg)
 
 Author:
 Shreyas K.V
